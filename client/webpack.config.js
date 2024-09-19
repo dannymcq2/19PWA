@@ -7,6 +7,7 @@ module.exports = {
     filename: 'bundle.js',
     path: path.resolve(__dirname, 'dist'),
   },
+  mode: 'development', // Set mode to 'development' or 'production' based on your needs
   module: {
     rules: [
       {
